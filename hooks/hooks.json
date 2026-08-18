@@ -1,0 +1,17 @@
+{
+  "description": "Nexpresso : confirmation utilisateur obligatoire avant publication ou suppression.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__.*[Nn]expresso.*__(posts|projects|reviews|faqs|categories|tags|media|settings)_(create|update|delete)",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/publish-gate.py"]
+          }
+        ]
+      }
+    ]
+  }
+}

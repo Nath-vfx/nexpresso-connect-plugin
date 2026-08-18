@@ -1,0 +1,10 @@
+{
+  "name": "nexpresso-connect",
+  "version": "0.1.0",
+  "description": "Pilotage du CMS Nexpresso via son serveur MCP : rédaction et mise à jour des posts, projets, avis, FAQ, catégories, tags, médias et réglages, avec validation systématique du contenu avant publication et choix brouillon / publication laissé à l'utilisateur.",
+  "author": {
+    "name": "Nathan Van Bignoot",
+    "email": "nathan.vanbignoot@bananagency.fr"
+  },
+  "keywords": ["nexpresso", "cms", "mcp", "blog", "posts", "publication", "seo"]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "banan-nexpresso",
+  "description": "Plugins Banan Agency pour le CMS Nexpresso.",
+  "owner": {
+    "name": "Nathan Van Bignoot",
+    "email": "nathan.vanbignoot@bananagency.fr"
+  },
+  "plugins": [
+    {
+      "name": "nexpresso-connect",
+      "source": "./",
+      "description": "Pilotage du CMS Nexpresso via MCP, avec garde-fou de publication.",
+      "version": "0.1.0"
+    }
+  ]
+}
